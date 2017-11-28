@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 class MainBoard extends Component {
   render() {
     return (
-      <div className="container mt-5">
+      <div className="mainBoard container mt-5">
         <div className="row content-justify-center py-4">
           {this.props.children}
         </div>
